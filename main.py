@@ -30,7 +30,7 @@ window_login = tk.Tk()
 window_login.title("Login - Pengelola Tugas")
 
 # Menambahkan gambar pada jendela login
-photo = tk.PhotoImage(file="logo.jpg")
+photo = tk.PhotoImage(file="Hydrangeas.jpg")
 label = tk.Label(image=photo)
 label.image = photo # must keep a reference, otherwise it will be garbage collected
 label.pack()
